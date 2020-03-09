@@ -1,0 +1,114 @@
+@media screen and (max-width: 1300px) { 
+  .companyName_text{
+    font-size: 40px;
+  }
+  .contents1{
+    width: 43%;
+    left: 11%;
+  }
+  
+  .contents2{
+    width: 38%;
+    right: 11%;
+  }
+}
+@media screen and (max-width: 1200px) { 
+  .contents1{
+    width: 47%;
+    left: 7%;
+  }
+  .contents2{
+    width: 43%;
+    right: 7%;
+  }
+  .link{
+    width: 30.33%;
+  }
+}
+@media screen and (max-width: 1100px) { 
+  .backTop{
+    height: 100vh
+  }
+  .backTop::before{
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 1000px) { 
+  .contents1{
+    width: 80%;
+    position: static;
+    margin: 0 auto;
+  }
+  .contents2{
+    width: 80%;
+    position: static;
+    margin: 15px auto 0;
+  }
+}
+@media screen and (max-width: 950px) { 
+  .companyName_text{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 850px) { 
+  .link{
+    width: 47%;
+  }
+}
+@media screen and (max-width: 730px) { 
+  .companyName_text{
+    font-size: 20px;
+  }
+  .footer{
+    height: 90px;
+  }
+  .footer  i{
+    left: 55%;
+    top: 45px;
+  }
+  .footer  i:nth-of-type(2){
+    left: 45%;
+  }
+}
+@media screen and (max-width: 600px) { 
+  .c1, .c2{
+    font-size: 38px;
+  }
+  .sign1, .sign2{
+    font-size: 49px;
+  }
+  .link{
+    width: 95%;
+    margin: 15px auto;
+  }
+}
+@media screen and (max-width: 500px) { 
+  .companyName_text{
+    font-size: 15px;
+  }
+  .c1, .c2{
+    font-size: 28px;
+  }
+  .sign1, .sign2{
+    font-size: 36px;
+  }
+  .footer  i{
+    left: 60%;
+  }
+  .footer  i:nth-of-type(2){
+    left: 40%;
+  }
+  .footerContainer{
+    width: 90%;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 420px) { 
+  .top{
+    width: 100%;
+    background-size: 120%;
+  }
+  .contents1, .contents2{
+    padding: 50px 20px 40px;
+  }
+}
